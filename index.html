@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <img class="title" src="https://see.fontimg.com/api/renderfont4/2reo/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/UmVnaXN0cmF0aW9uIEZvcm0/radiantantique.png" alt="" srcset="">
+    <div class="registration-form">
+        <form>
+            <h3 style="color: rgb(145, 7, 7);">NOTE: All Fields are required.</h3><hr><br>
+            <label for="Name" class="label">Name: <span class="warn"></span> </label> <br>
+            <input class="input" type="text" name="Name" placeholder="Enter your Name"><br><br>
+            <label for="Email" class="label"> Email: <span class="warn"></span> </label><br>
+            <input class="input" type="email" name="Email" placeholder="Enter your Email"><br><br>
+            <label for="Phone no." class="label"> Phone no.: <span class="warn"></span> </label><br>
+            <input class="input" type="number" name="Phone_no" placeholder="Enter your Phone no."><br><br>
+            <label for="Gender" class="label"> Gender: <span class="warn"></span> </label><br><br>
+            <input class="term" type="radio" name="Gender"><span class="txt"> Male </span>
+            <input class="term" type="radio" name="Gender"><span class="txt"> Female </span>
+            <br><br>
+            <label for="Address" class="label"> Address: <span class="warn"></span> </label><br>
+            <input class="input" type="text" name="Address" placeholder="Enter your Address"><br><br>
+            <label for="Pincode" class="label"> Pincode: <span class="warn"></span> </label><br>
+            <input class="input" type="number" name="Pincode" placeholder="Enter your Pincode"><br><br>
+            <label for="Password" class="label hide"> Password: <span class="warn"></span> </label><br>
+            <input class="input hide" type="password" name="Password" placeholder="Enter your Password"><br><br>
+            <label for="Confirm Password" class="label hide"> Confirm Password: <span class="warn"></span> </label><br>
+            <input class="input hide" type="password" name="Confirm_Password" placeholder="Confirm Password"><br><br>
+            <input class="input term hide" id="TC" type="checkbox" name="Terms"><span class="hide"> I agree the terms and conditions.</span> <span class="warn"></span>  <br><br>
+            <button class="button hide" type="submit">SUBMIT</button>
+        </form>
+        <script src="form.js"></script>
+    </div>
+</body>
+</html>
